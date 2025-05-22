@@ -67,8 +67,10 @@ Nota: se valida si los valores asignados para los lados y los ángulos de las fi
 
 ### Fuentes:
 Área del triángulo isóceles: 
-- https://www.youtube.com/watch?v=ZdP8TQVI7OQ 
+- https://www.youtube.com/watch?v=ZdP8TQVI7OQ
+  
 Deducción de la fórmula de Heron:
-- https://www.youtube.com/watch?v=6c_VZQhIwCk 
+- https://www.youtube.com/watch?v=6c_VZQhIwCk
+  
 Área del triángulo equilátero con base a la altura del mismo: 
 - https://www.universoformulas.com/matematicas/geometria/area-triangulo-equilatero/#:~:text=%C2%BFC%C3%B3mo%20se%20obtiene%3F,base%20por%20la%20altura%3F).
