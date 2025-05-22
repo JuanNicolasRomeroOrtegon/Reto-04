@@ -4,8 +4,8 @@ Se utilizan clases para representar herencia, composición, encapsulamiento y po
 ## Explicación de cada parte del código: 
 ### `Point`
 Clase base que representa un punto en el plano cartesiano con coordenadas `x` y `y`. Contiene métodos para:
-Obtener y modificar coordenadas.
-Calcular distancia entre dos puntos.
+- Obtener y modificar coordenadas.
+- Calcular distancia entre dos puntos.
 
 ### `Line`
 Representa un segmento de línea entre dos puntos. Calcula y almacena su longitud automáticamente. Métodos:
@@ -43,4 +43,32 @@ Implementa:
 - Perímetro y suma de ángulos.
 - Clasificación del triángulo según sus ángulos: agudo, obtuso o rectángulo.
 
-###
+### `Tipos de Triangulos`
+
+### `Isoceles`
+Hereda de `Triangle`. 
+- Implementa su propia fórmula para calcular el área a partir del lado repetido y la base.
+
+### `Equilateral`
+Hereda de `Triangle`. 
+- Ángulos fijos en 60°.
+- Cálculo del área a través de su altura: `altura = (√3 / 2) * lado`.
+
+### `Scalene`
+Hereda de `Triangle`. 
+- Usa la fórmula de Herón para el cálculo del área.
+
+### `TriRectangle`
+Hereda de `Triangle`.
+- Cálculo del área: `(cateto1 × cateto2) / 2`.
+- Nos da la hipotenusa automáticamente.
+
+Nota: se valida si los valores asignados para los lados y los ángulos de las figuras tienen valores con sentido (No se permite el ingreso de lados o ángulos negativos)
+
+### Fuentes:
+Área del triángulo isóceles:
+-https://www.youtube.com/watch?v=ZdP8TQVI7OQ
+Deducción de la fórmula de Heron:
+-https://www.youtube.com/watch?v=6c_VZQhIwCk
+Área del triángulo equilátero con base a la altura del mismo:
+- https://www.universoformulas.com/matematicas/geometria/area-triangulo-equilatero/#:~:text=%C2%BFC%C3%B3mo%20se%20obtiene%3F,base%20por%20la%20altura%3F).
