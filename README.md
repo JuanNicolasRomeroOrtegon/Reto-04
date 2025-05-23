@@ -78,3 +78,7 @@ Deducción de la fórmula de Heron:
 
 
 ## Modificación de Restaurante:
+- Se añadieron los repectivos setters y getters en cada subclase de Menu Item.
+- Para aplicar el overriding se puso en la clase padre **MenuItem** el método calculate_price, los demás métodos ya lo tenían implementado por lo cual no fue necesario modificarlos, además el código original ya tenía descuentos o aumentos de precios.
+- Se añadió la clase Payment que recibe el total del método *calculate_total*, se pusieron las clases MedioPago, Tarjeta, Efectivo vistas en clase, donde se evidencia el Polimorfismo en Order para su facilitud.
+
