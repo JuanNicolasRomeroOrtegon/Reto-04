@@ -1,5 +1,5 @@
 # Reto-04
-## PRIMERA PARTE: EJERCICIO EN CLASE
+## Ejercicio en Clase:
 Se utilizan clases para representar herencia, composición, encapsulamiento y polimorfismo, las respectivas clases tienen sus setters, getters y debida implementación.
 
 ## Explicación de cada parte del código: 
@@ -75,3 +75,6 @@ Deducción de la fórmula de Heron:
   
 Área del triángulo equilátero con base a la altura del mismo: 
 - https://www.universoformulas.com/matematicas/geometria/area-triangulo-equilatero/#:~:text=%C2%BFC%C3%B3mo%20se%20obtiene%3F,base%20por%20la%20altura%3F).
+
+
+## Modificación de Restaurante:
