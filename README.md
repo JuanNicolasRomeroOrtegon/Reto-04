@@ -1,4 +1,5 @@
 # Reto-04
+## PRIMERA PARTE: EJERCICIO EN CLASE
 Se utilizan clases para representar herencia, composición, encapsulamiento y polimorfismo, las respectivas clases tienen sus setters, getters y debida implementación.
 
 ## Explicación de cada parte del código: 
