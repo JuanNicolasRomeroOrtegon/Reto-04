@@ -18,7 +18,7 @@ class Point:
     def compute_distance(self, other_point: "Point") -> float: 
         x_distance = self._x - other_point.get_x()
         y_distance = self._y - other_point.get_y()
-        return (x_distance**2 + y_distance**2)* 0.5
+        return (x_distance**2 + y_distance**2)** 0.5
     
 class Line:
     def __init__(self, start_point: Point, end_point: Point) -> None:
@@ -125,7 +125,7 @@ class Rectangle(Shape):
         return 360
     
     def diagonal_length(self) -> float:
-        return (self._width*2 + self._height*2) **0.5
+        return (self._width**2 + self._height**2) **0.5
 
 class Square(Rectangle):
     def __init__(self, vertices: list["Point"], edges: list["Line"]) -> None:
@@ -210,8 +210,8 @@ class Triangle(Shape):
             raise ValueError("El tamaño del ángulo debe ser positivo")
         self._angle3 = _angle3
 
-    """Usamos la fórmula de Herón para calcular el área, ya que es aplicable a 
-    cualquier triángulo"""
+    #Usamos la fórmula de Herón para calcular el área, ya que es aplicable a 
+    #cualquier triángulo
     def compute_area(self) -> float:
         #sp es el semiperímetro, lo coloqué así para que no ocupase tanto espacio
         sp = (self._side1 + self._side2 + self._side3) / 2
@@ -311,8 +311,8 @@ class Scalene(Triangle):
         self.set_side2(edges[1].get_length())
         self.set_side3(edges[2].get_length())
 
-    """Usamos la fórmula de Herón para calcular el área, ya que es aplicable a 
-    cualquier triángulo"""
+    #Usamos la fórmula de Herón para calcular el área, ya que es aplicable a 
+    #cualquier triángulo
     def compute_area(self):
         #sp es el semiperímetro, lo coloqué así para que no ocupase tanto espacio
         sp = (self.get_side1() + self.get_side2() + self.get_side3()) / 2
